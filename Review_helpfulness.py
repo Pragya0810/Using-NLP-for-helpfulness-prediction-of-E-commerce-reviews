@@ -1,5 +1,5 @@
 ###################################################################
-#				Importing the libraries					  		  #
+#	        Importing the libraries			 	  #
 ###################################################################
 """
 Numpy: It is the core library for scientific computing in Python. It provides a high-performance multidimensional array object and tools for working with these arrays.
@@ -14,7 +14,7 @@ import pandas as pd
 
 
 ###################################################################
-#				Importing the dataset				  	  		  #
+#			Importing the dataset   		  #
 ###################################################################
 """
 The data we have is in the form of tsv file which is imported with the help of ‘read_csv’ function of pandas library but since we need to add tsv file we set delimiter parameter to /t 
@@ -23,7 +23,7 @@ dataset = pd.read_csv('Reviews.tsv', delimiter = '\t', quoting = 3,encoding= 'un
 
 
 ###################################################################
-#				Cleaning the texts					  			  #
+#			Cleaning the texts			  #
 ###################################################################
 """
 LIBRARIES:
@@ -66,7 +66,7 @@ for i in range(0, 1000):
 
 
 ###################################################################
-#			Creating the Bag of Words model				          #
+#		Creating the Bag of Words model		          #
 ###################################################################
 """
 LIBRARIES
@@ -88,7 +88,7 @@ y = dataset.iloc[:,4 ].values
 
 
 ###################################################################
-#				Splitting the dataset					  		  #
+#		   Splitting the dataset	  		  #
 ###################################################################
 """
 FUNCTION:
@@ -104,7 +104,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, random_state = 0)
 
 ###################################################################
-#				Fitting Naive Bayes					 			  #
+#			Fitting Naive Bayes			  #
 ###################################################################
 """
 Here class “GaussianNB” is imported from sklearn.naive_bayes. Furthermore, we created an object of class GaussianNB and then fitted the Naive Bayes model to the data.
@@ -116,7 +116,7 @@ classifier = GaussianNB()
 classifier.fit(X_train, y_train)
 
 ###################################################################
-#	    Similarly other classification algorithm fitting		  #
+#	 Similarly other classification algorithm fitting	  #
 ###################################################################
 
 """# Fitting Logistic Regression to the Training set
@@ -136,7 +136,7 @@ classifier.fit(X_train, y_train)"""
 
 
 ###################################################################
-#			Predicting the Test set result		              	  #
+#		Predicting the Test set result	             	  #
 ###################################################################
 """
 FUNCTION: Here classifier.predict tries to classify the data and returns the predicted value into y_pred
@@ -147,7 +147,7 @@ y_pred = classifier.predict(X_test)
 
 
 ###################################################################
-#				Making the Confusion Matrix				  		  #
+#		    Making the Confusion Matrix	  		  #
 ###################################################################
 """
 LIBRARY:
