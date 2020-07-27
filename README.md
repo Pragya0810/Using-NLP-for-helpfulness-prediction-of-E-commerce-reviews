@@ -111,3 +111,12 @@ Our model has the capability to create a mutual benefit for both consumers and o
 e-commerce platforms. With better reviews getting highlighted, customers can improvise
 their decisions, and service providers can improve their services in optimized time and thus
 developing a deep faith in online services.
+
+[1]: http://www.github.com/Pragya0810
+[2]: https://www.facebook.com/pragya.chhajer.79
+[3]: https://www.linkedin.com/in/pragya-chhajer-5a5aa6159/
+
+
+---
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1][![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2][![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3]
+---
